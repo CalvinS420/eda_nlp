@@ -1,0 +1,44 @@
+
+==================================================
+SMS BASELINE - ORIGINAL TRAINING DATA
+==================================================
+Training examples: 499
+Test examples: 500
+Accuracy: 97.60%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.99       433
+        spam       0.92      0.90      0.91        67
+
+    accuracy                           0.98       500
+   macro avg       0.95      0.94      0.95       500
+weighted avg       0.98      0.98      0.98       500
+
+
+==================================================
+SMS EDA - AUGMENTED TRAINING DATA
+==================================================
+Training examples: 2495
+Test examples: 500
+Accuracy: 97.60%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       433
+        spam       0.91      0.91      0.91        67
+
+    accuracy                           0.98       500
+   macro avg       0.95      0.95      0.95       500
+weighted avg       0.98      0.98      0.98       500
+
+
+==================================================
+FINAL SMS COMPARISON
+==================================================
+Baseline accuracy: 97.60%
+EDA accuracy:      97.60%
+Difference:        +0.00 percentage points
+Result: Accuracy was unchanged.

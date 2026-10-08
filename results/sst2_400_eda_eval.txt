@@ -1,0 +1,46 @@
+
+==================================================
+BASELINE - ORIGINAL DATA ONLY
+==================================================
+Training examples: 400
+Test examples: 100
+Accuracy: 0.6100
+Accuracy (%): 61.00%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.53      0.57        49
+           1       0.60      0.69      0.64        51
+
+    accuracy                           0.61       100
+   macro avg       0.61      0.61      0.61       100
+weighted avg       0.61      0.61      0.61       100
+
+
+==================================================
+EDA - AUGMENTED TRAINING DATA
+==================================================
+Training examples: 2000
+Test examples: 100
+Accuracy: 0.6500
+Accuracy (%): 65.00%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.67      0.65        49
+           1       0.67      0.63      0.65        51
+
+    accuracy                           0.65       100
+   macro avg       0.65      0.65      0.65       100
+weighted avg       0.65      0.65      0.65       100
+
+
+==================================================
+FINAL COMPARISON
+==================================================
+Baseline accuracy: 61.00%
+EDA accuracy:      65.00%
+Difference:        +4.00 percentage points
+Result: EDA improved accuracy.
